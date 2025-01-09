@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+     padding: 0;                /* common for  all web page */
+    box-sizing: border-box;
+    font-family: "Gilrouy";
+
+}
+html,body{
+    width: 100%;
+    height: 100%;  /* for this also its adding effect to whole page*/
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(164, 221, 197);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#panel{
+    overflow: hidden; /* things jo panel se bahar jayegi vo hide hogi like vo darker green panel*/
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+    background-color: #fff;
+
+}
+
+#ptop{
+    padding: 0px 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    width: 100%;
+    height: 90px;
+    background-color:rgb(68, 128, 93) ;
+}
+.elem{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.elem h2{
+    font-weight: 500;
+    font-size: 22px;
+}
+.box{
+    color: rgb(83, 165, 101);
+    font-weight: 600;
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+#pbtm{
+    padding: 20px;
+    width: 100%;
+    height: calc(100% - 90px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    color:rgb(26, 58, 39) ;
+}
+.bubble{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55px;
+    height: 55px;
+    background-color: rgb(128, 89, 145);
+    color: #fff;
+    font-weight: 500;
+    border-radius: 50%;
+}
+.bubble:hover{
+    cursor: pointer;
+    background-color: rgb(52, 97, 71);
+}
